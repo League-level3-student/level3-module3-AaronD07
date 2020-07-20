@@ -5,7 +5,11 @@ public class Chicken extends Animal{
 	@Override
 	public void makeNoise() {
 		// TODO Auto-generated method stub
+		System.out.println("Cluck-Cluck");
+
 		
 	}
-
+	public void eat() {
+		
+	}
 }

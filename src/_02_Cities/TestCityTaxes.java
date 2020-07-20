@@ -20,7 +20,7 @@ public class TestCityTaxes {
 		cities.add(bo);
 		cities.add(la);
 		cities.add(at);
-		
+		 
 		
 		assertEquals(3251200.00, cities.get(0).getAnnualTaxes(), 0.01);
 		assertEquals(1144412.80, cities.get(1).getAnnualTaxes(), 0.01);

@@ -8,7 +8,9 @@ public class Boston extends City {
 
 	@Override
 	double getAnnualTaxes() {
-		double totalTaxes = population*6.25 + (0.50);
+		double totalTaxes = population*6.25;
+		totalTaxes=totalTaxes -population*0.50;
+		
 		return totalTaxes;	}
 
 }
